@@ -80,7 +80,7 @@ jobs:
           working-directory: /
           comment: Deploy
           command: |
-            mkdir -p /dockerProjects/blog
-            curl -o /dockerProjects/blog/zero_downtime_deploy.py https://raw.githubusercontent.com/Asthux/deploy-demo-01-25/main/infraScript/zero_downtime_deploy.py
-            chmod +x /dockerProjects/blog/zero_downtime_deploy.py
-            /dockerProjects/blog/zero_downtime_deploy.py
+            mkdir -p /dockerProject/blog
+            curl -o /dockerProject/blog/zero_downtime_deploy.py https://raw.githubusercontent.com/Asthux/deploy-demo-01-25/main/infraScript/zero_downtime_deploy.py
+            chmod +x /dockerProject/blog/zero_downtime_deploy.py
+            /dockerProject/blog/zero_downtime_deploy.py
